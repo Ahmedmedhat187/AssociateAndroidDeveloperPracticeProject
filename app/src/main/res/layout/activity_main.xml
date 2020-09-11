@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <RelativeLayout
+                    android:paddingHorizontal="@dimen/dimens_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/font_size_18"
+                        android:layout_gravity="start"
+                        android:text="@string/leaderboard"/>
+
+                    <TextView
+                        android:id="@+id/btn_submit"
+                        android:text="@string/submit"
+                        android:textColor="@color/black"
+                        android:background="@drawable/rounded_corners_button_submit"
+                        android:textSize="@dimen/font_size_18"
+                        android:paddingHorizontal="@dimen/dimens_30"
+                        android:paddingVertical="@dimen/dimens_2"
+                        android:textStyle="bold"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:background="@color/black"
+        android:textStyle="bold"
+        app:tabTextColor="@color/gray"
+        app:tabSelectedTextColor="@color/white"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorHeight="@dimen/dimens_5"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

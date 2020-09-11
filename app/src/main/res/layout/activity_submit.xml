@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".ui.activities.SubmitActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_150">
+            <ImageView
+                android:paddingVertical="@dimen/dimens_30"
+                android:paddingHorizontal="@dimen/dimens_100"
+                android:scaleType="centerInside"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logo_short" />
+            <ImageView
+                android:id="@+id/btn_back"
+                android:src="@drawable/ic_backspace"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="?actionBarSize"
+                android:layout_width="@dimen/dimens_40"
+                android:layout_height="@dimen/dimens_40"/>
+        </RelativeLayout>
+        <TextView
+            android:textColor="@color/orange"
+            android:textSize="@dimen/font_size_20"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/project_submission" />
+        <View
+            android:layout_marginTop="@dimen/dimens_10"
+            android:layout_marginBottom="@dimen/dimens_10"
+            android:background="@drawable/background_gradient_divider_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_2"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_margin="@dimen/dimens_20"
+                android:padding="@dimen/dimens_10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corners_edittext"
+                android:ems="10"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:hint="@string/first_name" />
+            <EditText
+                android:id="@+id/et_last_name"
+                android:layout_marginTop="@dimen/dimens_20"
+                android:layout_marginBottom="@dimen/dimens_20"
+                android:layout_marginRight="@dimen/dimens_20"
+                android:padding="@dimen/dimens_10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corners_edittext"
+                android:ems="10"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:hint="@string/last_name" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_margin="@dimen/dimens_20"
+            android:padding="@dimen/dimens_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners_edittext"
+            android:ems="10"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:hint="@string/email_address" />
+        <EditText
+            android:id="@+id/et_project_link"
+            android:layout_margin="@dimen/dimens_20"
+            android:padding="@dimen/dimens_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners_edittext"
+            android:ems="10"
+            android:textStyle="bold"
+            android:inputType="textPersonName"
+            android:hint="@string/project_on_github_link" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/dimens_50"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/submit_project"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_20"
+            android:background="@drawable/background_submit_gradient"
+            android:paddingVertical="@dimen/dimens_5"
+            android:paddingHorizontal="@dimen/dimens_50"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

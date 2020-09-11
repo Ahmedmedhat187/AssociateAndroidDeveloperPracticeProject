@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AndroidDeveloperPracticeProject</string>
+
+    <string name="learning_leaders">Learning Leaders</string>
+    <string name="skill_iq_leaders">Skill IQ Leaders</string>
+    <string name="are_you_sure">Are you sure</string>
+    <string name="submission_not_successful">Submission not Successful</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="yes">Yes</string>
+    <string name="no_data_available">NO DATA AVAILABLE</string>
+    <string name="connection_error">Connection error...</string>
+    <string name="failed_to_get_learning_leaders">Failed to get learning leaders...</string>
+    <string name="failed_to_get_iq_leaders">Failed to get iq leaders...</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="project_on_github_link">Project on GITHUB (link)</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="submit">Submit</string>
+    <string name="leaderboard">leaderBoard</string>
+    <string name="question_mark">\?</string>
+    <string name="skill_iq_score_text">&#160;skill IQ Score,&#160;</string>
+    <string name="learning_hours_text">&#160;learning hours,&#160;</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffae45</color>
+
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#717171</color>
+    <color name="gray_shadow">#2c2b2b</color>
+
+
+    <color name="orange">#ffae45</color>
+    <color name="orange_light">#d3c7b8</color>
+    <color name="orange_button_dark">#ea8604</color>
+    <color name="orange_button_light">#fcb65b</color>
+
+
+
+    <color name="colorDanger">#FA0404</color>
+    <color name="colorSuccess">#05920B</color>
+
+</resources>
