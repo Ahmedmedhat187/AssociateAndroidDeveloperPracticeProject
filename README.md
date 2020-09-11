@@ -5,9 +5,7 @@
 <br /><br /><br />
 
 ### Description <br />
-This project is a very simple Android Project aimed at getting you to implement some simple concepts that are very important as far as Android Development is concerned.
-<br /><br /><br />
-
+This project is a very simple Android Project aimed at getting you to implement some simple concepts that are very important as far as Android Development is concerned.<br />
 In this project, you are going to implement a mobile design of the GADS 2020 Leaderboard. The mobile App will display <br />
 1 - Top 20 learners in the Learning Leaders’ category <br />
 2 - Top 20 learners in the Skill IQ Leaders’ category.
