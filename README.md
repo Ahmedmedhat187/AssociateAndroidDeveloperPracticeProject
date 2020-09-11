@@ -15,25 +15,10 @@
 
 
 
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| #Splash Screen	 | #Loading Learners  | #Connection Error  | #No Data Available |
+| :-----: | :-: | :-: | :-: |
+| <img src="screenshots/splash_screen.png" height="400em"/> |  <img src="screenshots/loading_learners_1.png" height="400em"/> | <img src="screenshots/connection_error.png" height="400em"/> | | <img src="screenshots/no_data_available.png" height="400em"/> | 
 
 
 
 
-
-| Attempt | #1  | #2  |
-| :-----: | :-: | :-: |
-| Seconds | 301 | 283 |
-
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-		
