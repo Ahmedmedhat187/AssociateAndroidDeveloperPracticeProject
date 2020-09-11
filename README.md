@@ -27,11 +27,9 @@
 | <img src="screenshots/no_data_available.png" height="400em"/> |  <img src="screenshots/loading_learners_2.png" height="400em"/> | <img src="screenshots/top_learners.png" height="400em"/> |
 
 
-
 | Loading Skilled IQ Learners	 | Skilled IQ Learners  | Submit Project Screen |
 | :-----: | :-: | :-: |
 | <img src="screenshots/loading_learners_3.png" height="400em"/> |  <img src="screenshots/skill_iq_learners.png" height="400em"/> | <img src="screenshots/submit_project_1.png" height="400em"/> |
-
 
 
 
@@ -41,7 +39,9 @@
 
 
 
-
+| Submission Project Failed |
+| :-----: |
+| <img src="screenshots/submission_not_successful.png" height="400em"/> |
 
 
 
