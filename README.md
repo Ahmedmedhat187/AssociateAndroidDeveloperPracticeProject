@@ -22,21 +22,6 @@
 
 
 
-| No Data Available | Loading Top Learners	 | Top Learners |
-| :-----: | :-: | :-: |
-| <img src="screenshots/no_data_available.png" height="400em"/> | | <img src="screenshots/loading_learners_2.png" height="400em"/> |  <img src="screenshots/top_learners.png" height="400em"/> |
-
-
-
-
-
-
-
-
-| Loading Skill IQ Learners  | Loading Skill IQ Learners |
-| :-----: | :-: | :-: |
-| <img src="screenshots/loading_learners_3.png" height="400em"/> | | <img src="screenshots/skill_iq_learners.png" height="400em"/> | <img src="screenshots/skill_iq_learners.png" height="400em"/> | 
-
 
 
 
