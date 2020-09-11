@@ -15,13 +15,31 @@
 
 
 
-| Splash Screen	 | Loading Learners  | Connection Error  | No Data Available |
-| :-----: | :-: | :-: | :-: |
-| <img src="screenshots/splash_screen.png" height="400em"/> |  <img src="screenshots/loading_learners_1.png" height="400em"/> | <img src="screenshots/connection_error.png" height="400em"/> | | <img src="screenshots/no_data_available.png" height="400em"/> | 
+
+| Splash Screen	 | Loading Learners  | Connection Error |
+| :-----: | :-: | :-: |
+| <img src="screenshots/splash_screen.png" height="400em"/> |  <img src="screenshots/loading_learners_1.png" height="400em"/> | <img src="screenshots/connection_error.png" height="400em"/> |
 
 
 
-| Loading Top Learners	 | Top Learners  | Loading Skill IQ Learners  | Loading Skill IQ Learners |
-| :-----: | :-: | :-: | :-: |
-| <img src="screenshots/loading_learners_2.png" height="400em"/> |  <img src="screenshots/top_learners.png" height="400em"/> | <img src="screenshots/loading_learners_3.png" height="400em"/> | | <img src="screenshots/skill_iq_learners.png" height="400em"/> | 
+| No Data Available | Loading Top Learners	 | Top Learners |
+| :-----: | :-: | :-: |
+| <img src="screenshots/no_data_available.png" height="400em"/> | | <img src="screenshots/loading_learners_2.png" height="400em"/> |  <img src="screenshots/top_learners.png" height="400em"/> |
+
+
+
+
+
+
+
+
+| Loading Skill IQ Learners  | Loading Skill IQ Learners |
+| :-----: | :-: | :-: |
+| <img src="screenshots/loading_learners_3.png" height="400em"/> | | <img src="screenshots/skill_iq_learners.png" height="400em"/> | <img src="screenshots/skill_iq_learners.png" height="400em"/> | 
+
+
+
+
+
+
 
