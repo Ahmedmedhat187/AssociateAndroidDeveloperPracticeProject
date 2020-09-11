@@ -10,3 +10,30 @@
 <img src="screenshots/submit_project_1.png" height="400em"/> <img src="screenshots/submit_project_2.png" height="400em"/> <img src="screenshots/submit_loading.png" height="400em"/>
 
 <img src="screenshots/submission_successful.png" height="400em"/> <img src="screenshots/submission_not_successful.png" height="400em"/>
+
+
+
+
+
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+
+
+
+
+| Attempt | #1  | #2  |
+| :-----: | :-: | :-: |
+| Seconds | 301 | 283 |
+
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+		
