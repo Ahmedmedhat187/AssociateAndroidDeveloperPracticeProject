@@ -23,7 +23,7 @@ In this project, you are going to implement a mobile design of the GADS 2020 Lea
 -	Working with Google Form and many more...
 <br /><br />
 
-Resources <br />
+##Resources <br />
 The data for should be gotten by making a network request the following API endpoints:
 <br />
 
