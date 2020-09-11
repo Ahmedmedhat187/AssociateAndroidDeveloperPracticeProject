@@ -12,11 +12,15 @@ In this project, we implement a mobile design of the GADS 2020 Leaderboard. The 
 <br /><br />
 
 ### This project includes:<br />
--	Multi-Activity Project  <br />
--	View pager  <br />
+-	Multi-Activitys  <br />
+-	Multi-Fragments  <br />
+-	View pager 2 - ViewPagerAdapter with TabLayout<br />
+-	RecyclerView - RecyclerViewAdapter with ViewHolder <br />
+- SwipeRefreshLayout
 -	Customizing Toolbar  <br />
--	RecyclerView  <br />
--	Making Network Request  <br />
+- AlertDialog with custom layout
+-	Making Network Request using Retrofit <br />
+-	Loading images from Network using Glide <br />
 -	Working with Google Form and many more...
 <br /><br />
 
