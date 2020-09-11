@@ -1,11 +1,10 @@
 # Google Africa Developer Scholarship Phase II (GADS 2020)
 # Associate Android Developer Practice Project (AADPP)
+### Building a GADS Leaderboard Mobile Application
 
-
-## Building a GADS Leaderboard Mobile Application
 <br /><br /><br />
 
-## Description <br />
+### Description <br />
 This project is a very simple Android Project aimed at getting you to implement some simple concepts that are very important as far as Android Development is concerned.
 <br /><br /><br />
 
@@ -14,7 +13,7 @@ In this project, you are going to implement a mobile design of the GADS 2020 Lea
 2 - Top 20 learners in the Skill IQ Leaders’ category.
 <br /><br />
 
-## This project will help you understand:<br />
+### This project includes:<br />
 -	Multi-Activity Project  <br />
 -	View pager  <br />
 -	Customizing Toolbar  <br />
@@ -23,7 +22,7 @@ In this project, you are going to implement a mobile design of the GADS 2020 Lea
 -	Working with Google Form and many more...
 <br /><br />
 
-##Resources <br />
+### Resources <br />
 The data for should be gotten by making a network request the following API endpoints:
 <br />
 
@@ -32,7 +31,7 @@ Learning Leaders - /api/hours <br />
 Skill IQ Leaders - /api/skilliq
 <br /><br />
 
-The submission will be done through the App. Before submitting the project, it should pushed to GitHub and include screenshots of your App in the Repo.
+The submission will be done through the App. The project should pushed to GitHub and include screenshots of the App in the Repo.
 
 To submit your project <br />
 Make a NETWORK POST request to this Google Form using any network library. [Retrofit is recommended.] <br />
@@ -47,10 +46,8 @@ Entries IDs:
 
 <br /><br />
 You can also find all resources and designs needed for this project here <br />
-https://drive.google.com/drive/folders/1l-huMnFzu0Lh_olBCzHgovsUCwbKouMb <br />
+https://drive.google.com/drive/folders/1l-huMnFzu0Lh_olBCzHgovsUCwbKouMb
 <br /><br />
-
-
 
 ### Screenshots
 
