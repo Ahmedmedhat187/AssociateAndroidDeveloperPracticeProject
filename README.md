@@ -5,8 +5,8 @@
 <br /><br /><br />
 
 ### Description <br />
-This project is a very simple Android Project aimed at getting you to implement some simple concepts that are very important as far as Android Development is concerned.<br />
-In this project, you are going to implement a mobile design of the GADS 2020 Leaderboard. The mobile App will display <br />
+This project is a very simple Android Project that aimed to implement some simple concepts that are very important as far as Android Development is concerned.<br/><br/>
+In this project, we implement a mobile design of the GADS 2020 Leaderboard. The mobile App will display <br />
 1 - Top 20 learners in the Learning Leaders’ category <br />
 2 - Top 20 learners in the Skill IQ Leaders’ category.
 <br /><br />
@@ -21,7 +21,7 @@ In this project, you are going to implement a mobile design of the GADS 2020 Lea
 <br /><br />
 
 ### Resources <br />
-The data for should be gotten by making a network request the following API endpoints:
+The data gotten by making a network request to the following API endpoints:
 <br />
 
 Base URL https://gadsapi.herokuapp.com The data is in json format. <br />
@@ -29,9 +29,9 @@ Learning Leaders - /api/hours <br />
 Skill IQ Leaders - /api/skilliq
 <br /><br />
 
-The submission will be done through the App. The project should pushed to GitHub and include screenshots of the App in the Repo.
+The submission will be done through the App. The projectin the GitHub and include screenshots of the App in the Repo.
 
-To submit your project <br />
+To submit project <br />
 Make a NETWORK POST request to this Google Form using any network library. [Retrofit is recommended.] <br />
 Base url - https://docs.google.com/forms/d/e/  <br />
 Form ID-1FAIpQLSf9d1TcNU6zc6KR8bSEM41Z1g1zl35cwZr2xyjIhaMAz8WChQ/formResponse <br />
@@ -43,7 +43,7 @@ Entries IDs:
 -	Link to project = entry.284483984
 
 <br /><br />
-You can also find all resources and designs needed for this project here <br />
+All resources and designs needed for this project here <br />
 https://drive.google.com/drive/folders/1l-huMnFzu0Lh_olBCzHgovsUCwbKouMb
 <br /><br />
 
