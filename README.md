@@ -29,7 +29,7 @@ The data for should be gotten by making a network request the following API endp
 
 Base URL https://gadsapi.herokuapp.com The data is in json format. <br />
 Learning Leaders - /api/hours <br />
-Skill IQ Leaders - /api/skilliq <br />
+Skill IQ Leaders - /api/skilliq
 <br /><br />
 
 The submission will be done through the App. Before submitting the project, it should pushed to GitHub and include screenshots of your App in the Repo.
