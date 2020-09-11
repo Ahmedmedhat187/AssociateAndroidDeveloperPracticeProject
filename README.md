@@ -2,10 +2,10 @@
 # Associate Android Developer Practice Project (AADPP)
 
 
-######Building a GADS Leaderboard Mobile Application
+##Building a GADS Leaderboard Mobile Application
 <br /><br /><br />
 
-######Description <br />
+##Description <br />
 This project is a very simple Android Project aimed at getting you to implement some simple concepts that are very important as far as Android Development is concerned.
 <br /><br /><br />
 
@@ -14,7 +14,7 @@ In this project, you are going to implement a mobile design of the GADS 2020 Lea
 2 - Top 20 learners in the Skill IQ Leaders’ category.
 <br /><br />
 
-######This project will help you understand:<br />
+##This project will help you understand:<br />
 -	Multi-Activity Project  <br />
 -	View pager  <br />
 -	Customizing Toolbar  <br />
