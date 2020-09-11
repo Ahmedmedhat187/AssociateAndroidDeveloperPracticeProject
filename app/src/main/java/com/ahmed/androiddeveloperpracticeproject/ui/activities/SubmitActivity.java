@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -13,12 +14,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.ahmed.androiddeveloperpracticeproject.R;
 import com.ahmed.androiddeveloperpracticeproject.api.RetrofitClient;
+
+import org.jetbrains.annotations.NotNull;
+
+import java.io.IOException;
+import java.util.Objects;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 public class SubmitActivity extends AppCompatActivity implements View.OnClickListener {
 
+    private static final String TAG = "SubmitActivity";
+    private static final String LOADING = "loading";
     EditText etName, etLastNAme, etEmail, etProjectLink;
     Button submitProject;
     ImageView btnBack;
@@ -31,7 +40,7 @@ public class SubmitActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_submit);
 
         progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("loading");
+        progressDialog.setMessage(LOADING);
 
         etName = findViewById(R.id.et_name);
         etLastNAme = findViewById(R.id.et_last_name);
@@ -65,19 +74,13 @@ public class SubmitActivity extends AppCompatActivity implements View.OnClickLis
         AlertDialog dialog = builder.create();
         dialog.show();
 
-        buttonClose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-            }});
+        buttonClose.setOnClickListener(view -> dialog.dismiss());
 
-        buttonYes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                dialog.dismiss();
-                progressDialog.show();
-                submitForm(name, lastName, email, projectLink);
-            }});
+        buttonYes.setOnClickListener(view -> {
+            dialog.dismiss();
+            progressDialog.show();
+            submitForm(name, lastName, email, projectLink);
+        });
     }
 
 
@@ -88,7 +91,7 @@ public class SubmitActivity extends AppCompatActivity implements View.OnClickLis
 
         submit.enqueue(new Callback<Void>() {
             @Override
-            public void onResponse(Call<Void> call, Response<Void> response) {
+            public void onResponse(@NotNull Call<Void> call, @NotNull Response<Void> response) {
                 progressDialog.dismiss();
 
                 if(response.isSuccessful()){
@@ -97,12 +100,18 @@ public class SubmitActivity extends AppCompatActivity implements View.OnClickLis
                 }
                 else{
                     createResultAlertDialog(R.layout.custom_alert_dialog_submission_failed);
+                    Log.e(TAG, response.message());
                 }
             }
             @Override
-            public void onFailure(Call<Void> call, Throwable t) {
+            public void onFailure(@NotNull Call<Void> call, @NotNull Throwable t) {
                 progressDialog.dismiss();
                 createResultAlertDialog(R.layout.custom_alert_dialog_submission_failed);
+
+                if (t instanceof IOException) {
+                    Toast.makeText(SubmitActivity.this, getString(R.string.connection_error), Toast.LENGTH_SHORT).show();
+                }
+                Log.e(TAG, Objects.requireNonNull(t.getMessage()));
             }
         });
     }
